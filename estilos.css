@@ -1,0 +1,81 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background: #f4f4f4;
+}
+
+
+.header {
+background: #111;
+color: white;
+text-align: center;
+padding: 40px 20px;
+}
+
+
+.contenedor {
+max-width: 900px;
+margin: auto;
+padding: 20px;
+}
+
+
+.entrevista {
+background: white;
+margin-bottom: 30px;
+padding: 20px;
+border-radius: 10px;
+animation: aparecer 1s ease;
+}
+
+
+.entrevista img {
+width: 100%;
+border-radius: 10px;
+}
+
+
+.boton {
+display: inline-block;
+margin-top: 10px;
+padding: 10px 20px;
+background: #000;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+}
+
+
+.contacto {
+background: #222;
+color: white;
+padding: 40px 20px;
+}
+
+
+form {
+max-width: 500px;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+
+
+input, textarea, button {
+margin: 10px 0;
+padding: 10px;
+border-radius: 5px;
+border: none;
+}
+
+
+button {
+background: orange;
+cursor: pointer;
+}
+
+
+@keyframes aparecer {
+from { opacity: 0; transform: translateY(20px); }
+to { opacity: 1; transform: translateY(0); }
+}
